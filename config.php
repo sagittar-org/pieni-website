@@ -5,8 +5,9 @@ $config['uri']['language_list'] = [
 ];
 $config['uri']['class_list'] = [
 	'welcome',
-	'docs',
 	'inquiry',
 	'auth',
 	'spec',
+	'docs',
+	'forum',
 ];
