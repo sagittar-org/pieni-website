@@ -46,6 +46,7 @@
 <?php load_view($view, $vars, $class); ?>
         </div>
       </div>
+    </div>
 <?php elseif (uri('class') === 'docs'): ?>
     <div class="container">
       <div class="row">
@@ -54,9 +55,10 @@
         </div>
         <div class="col-sm-9">
 <?php load_view($view, $vars, $class); ?>
+<?php load_view('page', $vars, $class); ?>
         </div>
       </div>
-      </div>
+    </div>
 <?php else: ?>
 <?php load_view('flash', $vars, $class); ?>
 <?php load_view($view, $vars, $class); ?>
