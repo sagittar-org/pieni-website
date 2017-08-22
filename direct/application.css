@@ -1,0 +1,48 @@
+.cover {
+	background-image: url('welcome/rapid.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.table-cell {
+	height: 400px;
+}
+@media screen and (max-width: 600px) {
+	.table-cell {
+		display:table-cell;
+		vertical-align:middle;
+	}
+}
+@media (min-width: 768px) {
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+@media (min-width: 992px) {
+	.featurette-heading {
+		margin-top: 120px;
+	}
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	padding-top: 50px;
+	margin-bottom: 75px;
+}
+.navbar-brand {
+	background: url('brand.svg') no-repeat left center;
+	background-size: contain;
+	height: 50px;
+	width: 160px;
+}
+.footer {
+	background-color: #e0e0e0;
+	text-align:right;
+	padding-top: 18px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 55px;
+}
