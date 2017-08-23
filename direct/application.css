@@ -1,3 +1,6 @@
+p {
+	font-size: 16px;
+}
 .cover {
 	background-image: url('welcome/rapid.jpg');
 	background-size: cover;
