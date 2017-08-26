@@ -16,6 +16,12 @@
             <li><a href="https://packagist.org/packages/sagittar-org/pieni">Packagist</a></li>
             <li<?php if (uri('class') === 'docs'): ?> class="active"<?php endif; ?>><a href="<?php href('docs'); ?>"><?php l('docs'); ?></a></li>
             <li<?php if (uri('class') === 'post'): ?> class="active"<?php endif; ?>><a href="<?php href('post'); ?>"><?php l('post'); ?></a></li>
+<?php if ( ! isset($_SESSION['m'])): ?>
+            <li<?php if (uri('class') === 'auth' && uri('method') === 'login'): ?> class="active"<?php endif; ?>><a href="<?php href('auth/login/m'); ?>"><?php l('auth_login'); ?></a></li>
+            <li<?php if (uri('class') === 'auth' && uri('method') === 'join'): ?> class="active"<?php endif; ?>><a href="<?php href('auth/join/m'); ?>"><?php l('join_m'); ?></a></li>
+<?php else: ?>
+            <li><a href="<?php href('auth/logout/m'); ?>"><?php l('auth_logout'); ?></a></li>
+<?php endif; ?>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://www.facebook.com/kentasaito1977">Facebook</a></li>
