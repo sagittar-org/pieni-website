@@ -20,12 +20,3 @@ $language['featurette_3'] = '
           <h2 class="featurette-heading">Wanna write specifications? <span class="text-muted">Sorry. It\'s readied.</span></h2>
           <p class="lead">CRUD matrices are generated automaticaly from models and configs. Why don\'t you hit keys first?</p>
 ';
-$language['inquiry']               = 'Contact me';
-$language['inquiry_email']         = 'Email';
-$language['inquiry_name']          = 'Your Name';
-$language['inquiry_message']       = 'Message';
-$language['inquiry_submit']        = 'Send';
-$language['inquiry_succeeded']     = 'I have received your inquiry.';
-$language['inquiry_failed']        = 'Inquiry failed.';
-$language['inquiry_subject']       = 'Thank you for your inquiry.';
-$language['inquiry_subject_admin'] = 'お問い合わせがありました。';
